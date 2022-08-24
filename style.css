@@ -1,0 +1,60 @@
+body {
+    font-family: 'Pacifico', cursive;
+    background-color: #6d6875;
+   
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ff006e;
+    text-align: center;
+}
+
+.shelf {
+    background-color: pink;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 26px;
+    border-bottom: 5px solid hotpink
+}
+
+.message {
+    color: #4a4e69;
+    /* color: #2b2d42; */
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    cursor: url(iconmonstr-cook-3.svg), auto;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    margin: 0 5px 20px 0;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right, #70d6ff, #9b5de5, #ff70a6);
+
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #ff70a6, #9b5de5, #70d6ff );
+}
+
+button:active {
+    background-image: linear-gradient(to right, #70d6ff, #9b5de5, #ff70a6);
+    color: #2f3e46;
+}
+
